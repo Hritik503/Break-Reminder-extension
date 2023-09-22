@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="gear-icon" title="Settings"></span>
+      <h1 class="center">Settings</h1>
+    </div>
+
+    <!-- Reminder Settings -->
+    <div class="reminder-settings">
+      <h2>Reminder Settings</h2>
+      <label for="reminderFrequency">Reminder Frequency:</label>
+      <select id="reminderFrequency">
+        <option value="once">Once</option>
+        <option value="everyday">Everyday</option>
+        <option value="monday">monday</option>
+        <option value="tuesday">tuesday</option>
+        <option value="wednesday">wednesday</option>
+        <option value="thrusday">thrusday</option>
+        <option value="friday">friday</option>
+        <option value="saturday">saturday</option>
+        <option value="sunday! REALLY?">sunday! REALLY?</option>
+      </select>
+    </div>
+
+    <!-- Website Link Input -->
+    <form id="settingsForm">
+      <label for="websiteLink">Website Link:</label>
+      <p>In the textbox below, feel free to enter a link to your favorite website you want to work on / YouTube video link / playlists, etc. This link will play whenever you want to work or see!</p>
+      <input type="text" id="websiteLink" placeholder="Enter website link">
+      <!-- Apply the button styles -->
+      <button type="submit">Save</button>
+    </form>
+
+    <!-- Display Saved Website URLs -->
+    <div class="saved-urls">
+      <h2>Saved Websites</h2>
+      <ul id="savedUrls">
+        <!-- URLs will be dynamically added here -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Include savedLinks.js and settings.js -->
+  <script src="savedLinks.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

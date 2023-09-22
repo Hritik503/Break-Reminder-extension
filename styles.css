@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+  background-color: #9d4ddf;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  background-color: #cbcfd1;
+  color: #1a1111;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #616569;
+}
+
+/* Reminder Settings Styles */
+.reminder-settings {
+  margin-top: 20px;
+  background-color: rgb(234, 223, 78); /* Change to light green */
+  border: 2px solid #050404;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Saved URLs Styles */
+.saved-urls {
+  margin-top: 20px;
+  background-color: rgb(169, 157, 230); /* Change to lavender color */
+  border: 2px solid #050404;
+  padding: 20px; /* Increased padding for more space */
+  border-radius: 5px;
+}
+
+.saved-urls h2 {
+  margin-bottom: 10px;
+}
+
+/* Input and Select Styles */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px; /* Increased padding for better appearance */
+  margin: 5px 0;
+  border: 2px solid #050404;
+  border-radius: 3px;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
